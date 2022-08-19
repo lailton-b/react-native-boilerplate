@@ -24,6 +24,6 @@
       "error",
       {"extensions": [".js", "jsx", ".tsx"]}
     ],
-    "import/prefer-default-export": false
+    "import/prefer-default-export": 0
   }
 }
