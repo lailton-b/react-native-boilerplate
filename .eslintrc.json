@@ -5,7 +5,7 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "airbnb",
+    // "airbnb",
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
@@ -28,7 +28,7 @@
     "prettier/prettier": [
       "error",
       {
-        "bracketSpacing": "off"
+        "bracketSpacing": true
       }
     ],
     "import-helpers/order-imports": [
@@ -48,8 +48,8 @@
     ],
     "no-use-before-define": "off",
     "react/jsx-filename-extension": [
-      "error",
-      { "extensions": [".js", "jsx", ".tsx"] }
+      2,
+      { "extensions": [".js", "ts", "jsx", ".tsx"] }
     ],
     "import/prefer-default-export": 0
   }
