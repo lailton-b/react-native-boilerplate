@@ -1,6 +1,11 @@
 {
   // fix eslint and prettier problems on save
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
   "prettier.requireConfig": true,
   "[javascript]": {
     "editor.codeActionsOnSave": {
